@@ -1,0 +1,2 @@
+# Preserve the exact bytes used to generate the modpack manifest hashes.
+servers/eclipse-rankup-1.20.1/files/** -text
