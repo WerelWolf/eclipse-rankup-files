@@ -1,0 +1,25 @@
+{
+  "$schema": "file:///C:/Users/falec/lauchers/EclipseLauncher/modpack/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "Eclipse Rankup",
+    "description": "Base oficial de testes — Minecraft 1.20.1 com Forge 47.4.28.",
+    "icon": "",
+    "address": "eclipse-rankupbr.serveminecraft.net:25565",
+    "mainServer": true,
+    "autoconnect": true,
+    "javaOptions": {
+      "distribution": "TEMURIN",
+      "supported": ">=17 <22",
+      "suggestedMajor": 17,
+      "ram": {
+        "minimum": 2048,
+        "recommended": 4096
+      }
+    }
+  },
+  "forge": {
+    "version": "47.4.28"
+  },
+  "untrackedFiles": []
+}
