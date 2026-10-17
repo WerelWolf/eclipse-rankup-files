@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"fast"
-resourcePacks:["generated/fragmentum_layer","vanilla","mod_resources","file/Custom Skins","file/CNPC Lines Built-in","file/TLA-Texturas"]
+resourcePacks:["generated/fragmentum_layer","vanilla","mod_resources","file/Custom Skins","file/CNPC Lines Built-in","file/EclipseRankup.zip"]
 incompatibleResourcePacks:[]
 lastServer:192.168.1.4
 lang:pt_br
@@ -127,7 +127,6 @@ key_gui.xaero_quick_confirm:key.keyboard.right.shift
 key_gui.xaero_toggle_dimension:key.keyboard.unknown
 key_placebo.toggleTrails:key.keyboard.keypad.9
 key_placebo.toggleWings:key.keyboard.keypad.8
-key_key.modernfix.config:key.keyboard.unknown
 key_chloride.zoom:key.keyboard.world.2
 key_equipmentcompare.key.showTooltips:key.keyboard.left.shift
 key_key.shouldersurfing.adjust_camera_left:key.keyboard.insert

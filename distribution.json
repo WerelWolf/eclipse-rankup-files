@@ -7915,9 +7915,9 @@
           "name": "options.txt",
           "type": "File",
           "artifact": {
-            "size": 8506,
+            "size": 8464,
             "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/files/options.txt",
-            "MD5": "9bec9bd549187ea1ab0c049d1d74f448",
+            "MD5": "aaa2e5560213cc2ff25ed2c28bfbcc58",
             "path": "options.txt"
           }
         },
