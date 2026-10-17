@@ -1,0 +1,24 @@
+
+#CNPCExtended v1.1.0 Configuration
+[global]
+	#Enable global player scripts.
+	#Copies .js files from config/cnpcextended/global_scripts/ into new worlds
+	#and registers them in player_scripts.json with ScriptEnabled=true.
+	enableGlobalScripts = true
+	#Enable global NPC data preloading.
+	#Copies clones, dialogs, linkednpcs, quests from
+	#config/cnpcextended/global_cnpc/ into new worlds.
+	enableGlobalNpcData = true
+	#Overwrite existing files when preloading.
+	#false = skip files that already exist in the world (safe default).
+	#true = replace existing files with the global template.
+	overwriteExisting = false
+	#How to sync global commands from config/cnpcextended/global_cnpc/cnpcextended/commands.json
+	#into world/customnpcs/cnpcextended/commands.json on world init.
+	#"false" = don't sync commands.
+	#"merge" = add new commands, keep existing ones unchanged.
+	#"overwrite" = replace world commands.json entirely with global template.
+	commandsSyncMode = "merge"
+	#Show detailed preload summary in server log.
+	verboseLogging = false
+

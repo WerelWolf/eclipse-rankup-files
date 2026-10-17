@@ -1,0 +1,94 @@
+
+["HUD Settings"]
+	#是否启用HUD
+	hud_enabled = true
+	#显示状态条
+	enable_status_bar = true
+	#显示额外状态信息（护甲值，饱食度、经验值）
+	enable_status_info = true
+	#显示骑乘实体血量信息
+	enable_mount_bar = true
+	#显示氧气条
+	enable_air_bar = true
+	#显示玩家名称
+	display_name = true
+	#显示血量数字
+	display_health_value = true
+	#BAR 对齐位置
+	#Allowed Values: TOP_LEFT, TOP_CENTER, TOP_RIGHT, CENTER_LEFT, CENTER, CENTER_RIGHT, BOTTOM_LEFT, BOTTOM_CENTER, BOTTOM_RIGHT
+	bar_anchor = "TOP_LEFT"
+	#BAR 缩放
+	#Range: 0.0 ~ 10.0
+	bar_scale = 1.0
+	#BAR X偏移位置
+	#Range: > -2147483647
+	bar_offsetX = 0
+	#BAR Y偏移位置
+	#Range: > -2147483647
+	bar_offsetY = 0
+	#玩家信息 对齐位置
+	#Allowed Values: TOP_LEFT, TOP_CENTER, TOP_RIGHT, CENTER_LEFT, CENTER, CENTER_RIGHT, BOTTOM_LEFT, BOTTOM_CENTER, BOTTOM_RIGHT
+	info_anchor = "TOP_LEFT"
+	#玩家信息 缩放
+	#Range: 0.0 ~ 10.0
+	info_scale = 1.0
+	#玩家信息 X偏移
+	#Range: > -2147483647
+	info_offsetX = 0
+	#玩家信息 Y偏移
+	#Range: > -2147483647
+	info_offsetY = 54
+	#氧气条 对齐位置
+	#Allowed Values: TOP_LEFT, TOP_CENTER, TOP_RIGHT, CENTER_LEFT, CENTER, CENTER_RIGHT, BOTTOM_LEFT, BOTTOM_CENTER, BOTTOM_RIGHT
+	air_anchor = "BOTTOM_CENTER"
+	#氧气条 缩放
+	#Range: 0.0 ~ 10.0
+	air_scale = 1.0
+	#氧气条 X偏移位置
+	#Range: > -2147483647
+	air_offsetX = -61
+	#氧气条 Y偏移位置
+	#Range: > -2147483647
+	air_offsetY = -36
+	#骑乘生物血量 对齐位置
+	#Allowed Values: TOP_LEFT, TOP_CENTER, TOP_RIGHT, CENTER_LEFT, CENTER, CENTER_RIGHT, BOTTOM_LEFT, BOTTOM_CENTER, BOTTOM_RIGHT
+	mount_anchor = "TOP_LEFT"
+	#骑乘生物血量 缩放
+	#Range: 0.0 ~ 10.0
+	mount_scale = 1.0
+	#骑乘生物血量 X偏移位置
+	#Range: > -2147483647
+	mount_offsetX = 2
+	#骑乘生物血量 Y偏移位置
+	#Range: > -2147483647
+	mount_offsetY = 100
+	#经验条兼容替换类型
+	#Allowed Values: EXP, IRON_SPELL_MANA, GOETY_MANA
+	exp_bar_type = "EXP"
+	#饱食度条兼容替换类型
+	#Allowed Values: FOOD, EPIC_FIGHT_STAMINA, PARCOOL
+	food_bar_type = "FOOD"
+	#每点生命值所占的像素宽度
+	#Range: 0.1 ~ 2.147483647E9
+	pix_per_health = 10.0
+	#生命值条的最大宽度
+	#Range: > 24
+	max_health_width = 380
+	#每点经验值所占的像素宽度
+	#Range: 0.1 ~ 2.147483647E9
+	pix_per_mana = 8.0
+	#魔力值条的最大宽度
+	#Range: > 20
+	max_mana_width = 340
+	#每点耐力值所占的像素宽度
+	#Range: 0.1 ~ 2.147483647E9
+	pix_per_stamina = 10.0
+	#耐力值条的最大宽度
+	#Range: > 20
+	max_stamina_width = 300
+	#反转BOSS血条的垂直位置
+	boss_bar_invert = true
+	#BOSS 血条的垂直偏移量
+	#Range: > -2147483647
+	boss_bar_y_offset = 40
+

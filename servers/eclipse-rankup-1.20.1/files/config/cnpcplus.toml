@@ -1,0 +1,38 @@
+#合成视图分类。格式: 名称||名称过滤1,名称过滤2;名称||名称过滤3,名称过滤4
+CraftingCategories = "All||"
+#配方配置模糊化规则。格式: 物品ID|NBT字段1,NBT字段2;物品ID|。匹配时总是检查物品ID和物品名字。默认包含 TACZ 和拔刀剑。
+RecipeFuzzyMatchRules = "tacz:modern_kinetic_gun|GunId;slashblade:slashblade|"
+#木工台/合成台侧栏（合成视图）显示开关（默认true，修改后重新打开界面即生效）
+CraftingViewEnabled = true
+
+["对话框"]
+	#对话框中NPC模型的缩放倍数（默认3.0）
+	#Range: 0.0 ~ 100.0
+	DialogNpcScale = 3.0
+	#对话框中NPC模型的X位置偏移（默认-80）
+	#Range: -1000 ~ 1000
+	DialogNpcPosX = -80
+	#对话框中NPC模型的Y位置偏移（默认250）
+	#Range: -1000 ~ 1000
+	DialogNpcPosY = 250
+	#对话框选项文字缩放倍数（默认1.0，越大字越大）
+	#Range: 0.1 ~ 10.0
+	DialogOptionScale = 1.0
+	#对话框选项区域整体X位置（默认723）
+	#Range: 0 ~ 2000
+	DialogOptionPosX = 723
+	#对话框选项区域整体Y位置（默认220）
+	#Range: 0 ~ 1000
+	DialogOptionPosY = 220
+	#对话框选项之间的额外垂直间距（默认0，正数加大间距）
+	#Range: -50 ~ 50
+	DialogOptionSpacing = 0
+
+["吟游诗人"]
+	#吟游诗人音乐/唱片机音量倍数（默认1.0，0.0-1.0）
+	#Range: 0.0 ~ 1.0
+	BardVolume = 1.0
+	#吟游诗人看门狗时长（秒，默认300=5分钟）：同一首歌超过该时长仍未结束则强制换曲
+	#Range: 1 ~ 3600
+	BardWatchdogSeconds = 300
+

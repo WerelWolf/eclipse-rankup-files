@@ -1,0 +1,3 @@
+identifier = atributosguia
+title = atributosguia
+allowesc = false

@@ -1,0 +1,3 @@
+identifier = racas
+title = Raças
+allowesc = true

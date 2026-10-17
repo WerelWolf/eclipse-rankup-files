@@ -1,0 +1,14 @@
+{
+  "capeEnabled": true,
+  "texture": "arqueiro",
+  "width": 15,
+  "height": 25,
+  "nodeCount": 8,
+  "gravity": -0.035,
+  "damping": 0.8,
+  "speedLimit": 1.0,
+  "collisionThreshold": -0.25,
+  "windSpeed": 0.1,
+  "windRipple": 0.3,
+  "windStrength": 0.015
+}

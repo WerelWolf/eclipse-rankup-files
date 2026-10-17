@@ -1,0 +1,581 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = guiaepicfight
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1721009753114
+  is_enabled = false
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:6295d986-9d26-40d3-ac09-b1f0f3f0d0b2-1721009753114] = [groups:][instances:]
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+}
+
+element {
+  source = [source:local]fancy/LivroGuia/book2.png
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  element_type = image
+  instance_identifier = 0c8bb3a4-5d9a-44e8-a5e6-7f93400ac7b61699938201015
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -279
+  y = -133
+  width = 559
+  height = 300
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 368aa61a-c1d3-42df-8318-b6dc2549ceee-1721009753123
+  [loading_requirement_container_meta:368aa61a-c1d3-42df-8318-b6dc2549ceee-1721009753123] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = 1870f0c6-7df0-4b34-9cec-7bdf6aad6b52-1721009753131
+  [executable_action_instance:8c21c729-3e3d-4397-b17c-cc0fd96c1759-1721009753132][action_type:closegui] = 
+  [executable_block:1870f0c6-7df0-4b34-9cec-7bdf6aad6b52-1721009753131][type:generic] = [executables:8c21c729-3e3d-4397-b17c-cc0fd96c1759-1721009753132;]
+  backgroundnormal = [source:local]fancy/LivroGuia/x1.png
+  backgroundhovered = [source:local]fancy/LivroGuia/x2.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = 
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 5d9e8468-74c0-42ac-8bc8-510fa68d91b41699936734137
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = element
+  anchor_point_element = 0c8bb3a4-5d9a-44e8-a5e6-7f93400ac7b61699938201015
+  x = 512
+  y = 13
+  width = 30
+  height = 30
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 391d2d80-2ac5-4e07-a667-0e4680fa3bf3-1721009753132
+  [loading_requirement_container_meta:391d2d80-2ac5-4e07-a667-0e4680fa3bf3-1721009753132] = [groups:][instances:]
+}
+
+element {
+  orientation = element
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  grabber_color_normal = #0a75ad
+  source = Epic Fight adiciona mecânicas de jogo complexas %n%e estilos de luta ao seu jogo. Com uma pitada de%n%combate soulslike e manipulação de animação %n%exclusiva que adiciona curvas ao minecraft, Epic %n%Fight irá apimentar sua jogabilidade a um nível %n%totalmente diferente e permitir novos desafios ao%n%longo do caminho. Você enfrentará uma nova %n%abordagem ao combate do Minecraft, onde todas %n%as entidades bipeds têm mecânicas de combate novas %n%e desafiadoras.%n%%n%Além disso o mod complementa um sistema de: %n% - Rolamento ou Esquiva(Habilidade)%n% - Habilidades com armas(Cada arma possui 1)%n% - Ataques criticos(Habilidades ou ataques com pulo)%n% - Danos criticos(ataques rapidos)%n% - Defesa(Habilidade)%n% - Contra-ataques(Habilidade)%n% - Estamina%n% %n% %n% %n%
+  text_border = 0
+  case_mode = normal
+  grabber_color_hover = #003366
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = 307eeae6-54c9-4b70-b349-8c3002093f8a1699940484896
+  x = -16
+  width = 241
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 8300a855-2ad7-4431-bf32-ff9ecbe3b1b51699940100725
+  y = 132
+  alignment = centered
+  base_color = #800E34
+  height = 102
+  element_type = fancymenu_customization_item_text
+}
+
+element {
+  source = [source:local]
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  element_type = image
+  instance_identifier = 6ca4ee63-620e-4361-8aed-b1e5ad3ce58f1699940472283
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-left
+  x = 0
+  y = 20
+  width = 0
+  height = 100
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = c8a77a17-a3c8-4313-9e73-d3ef250302f7-1721009753132
+  [loading_requirement_container_meta:c8a77a17-a3c8-4313-9e73-d3ef250302f7-1721009753132] = [groups:][instances:]
+}
+
+element {
+  source = [source:local]fancy/LivroGuia/ef.png
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  element_type = image
+  instance_identifier = 307eeae6-54c9-4b70-b349-8c3002093f8a1699940484896
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = element
+  anchor_point_element = 0c8bb3a4-5d9a-44e8-a5e6-7f93400ac7b61699938201015
+  x = 36
+  y = 13
+  width = 204
+  height = 129
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 005069e0-4102-49aa-a863-b8b8d802f06e-1721009753132
+  [loading_requirement_container_meta:005069e0-4102-49aa-a863-b8b8d802f06e-1721009753132] = [groups:][instances:]
+}
+
+element {
+  source = [source:local]
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  element_type = image
+  instance_identifier = 316e4abf-e165-4351-9347-14d7e6def54f1699943488019
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-left
+  x = 0
+  y = 20
+  width = 0
+  height = 100
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 77191487-220b-4170-8b00-fd2166b347e1-1721009753133
+  [loading_requirement_container_meta:77191487-220b-4170-8b00-fd2166b347e1-1721009753133] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = dde432d7-8720-4ca9-8c3c-184ad51c7499-1721009753133
+  [executable_action_instance:c3a7f105-6d08-4513-9410-baf10e9ef9c1-1721009753133][action_type:sendmessage] = /openguiscreen livroguia
+  [executable_block:dde432d7-8720-4ca9-8c3c-184ad51c7499-1721009753133][type:generic] = [executables:c3a7f105-6d08-4513-9410-baf10e9ef9c1-1721009753133;]
+  backgroundnormal = [source:local]fancy/LivroGuia/voltarparaesquerda1.png
+  backgroundhovered = [source:local]fancy/LivroGuia/voltarparaesquerda2.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = 
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 1d5fca86-4713-405b-890c-3e1e88f25cb51699943493760
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = element
+  anchor_point_element = 0c8bb3a4-5d9a-44e8-a5e6-7f93400ac7b61699938201015
+  x = 20
+  y = 267
+  width = 42
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 5cd13a28-18ad-436b-a933-5eb2c2260564-1721009753133
+  [loading_requirement_container_meta:5cd13a28-18ad-436b-a933-5eb2c2260564-1721009753133] = [groups:][instances:]
+}
+
+element {
+  orientation = element
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  grabber_color_normal = #0a75ad
+  source = &0&nModo Batalha%n%%n%Para ativar o modo Batalha %n%aperte a tecla &nR&r do seu teclado!
+  text_border = 0
+  case_mode = normal
+  grabber_color_hover = #003366
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = 0c8bb3a4-5d9a-44e8-a5e6-7f93400ac7b61699938201015
+  x = 336
+  width = 138
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = b96b0943-a34f-4c23-a8b2-6c9abcfc36af1699974473874
+  y = 33
+  alignment = centered
+  base_color = #800E34
+  height = 40
+  element_type = fancymenu_customization_item_text
+}
+
+element {
+  source = [source:local]
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  element_type = image
+  instance_identifier = 62c8f491-0003-4331-8f81-bc083f160ec11699974566705
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-left
+  x = 0
+  y = 20
+  width = 0
+  height = 100
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 5b26393a-99fe-482c-b8fa-f67649613098-1721009753133
+  [loading_requirement_container_meta:5b26393a-99fe-482c-b8fa-f67649613098-1721009753133] = [groups:][instances:]
+}
+
+element {
+  source = [source:local]fancy/LivroGuia/giff.gif
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  element_type = image
+  instance_identifier = 9de74007-e847-46a8-90ed-85b4cdea02241699974858913
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = element
+  anchor_point_element = 8856a04c-458e-4291-a9af-88ffa924297a1699975801069
+  x = 1
+  y = 0
+  width = 46
+  height = 45
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 4ee258fa-fa8c-4526-afcf-7e87bb47f2c4-1721009753133
+  [loading_requirement_container_meta:4ee258fa-fa8c-4526-afcf-7e87bb47f2c4-1721009753133] = [groups:][instances:]
+}
+
+element {
+  source = [source:local]fancy/LivroGuia/prata.png
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  element_type = image
+  instance_identifier = 8856a04c-458e-4291-a9af-88ffa924297a1699975801069
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = element
+  anchor_point_element = 0c8bb3a4-5d9a-44e8-a5e6-7f93400ac7b61699938201015
+  x = 289
+  y = 28
+  width = 47
+  height = 45
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 261f5d74-3f03-4c3f-bdad-8b5364ce29eb-1721009753133
+  [loading_requirement_container_meta:261f5d74-3f03-4c3f-bdad-8b5364ce29eb-1721009753133] = [groups:][instances:]
+}
+
+element {
+  source = [source:local]fancy/LivroGuia/skillbook1.png
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  element_type = image
+  instance_identifier = 98cb0d43-f162-44c1-9009-7cc5ed2801ad1699976432615
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-left
+  x = 685
+  y = 197
+  width = 47
+  height = 45
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 6220e0f1-5bca-4dd1-b03b-5fd9c9bdaa86-1721009753133
+  [loading_requirement_container_meta:6220e0f1-5bca-4dd1-b03b-5fd9c9bdaa86-1721009753133] = [groups:][instances:]
+}
+
+element {
+  orientation = element
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  grabber_color_normal = #0a75ad
+  source = &0&nSkill Books (Livros de Habilidade)%n%%n%Os Livros de Habilidades  são livros que %n%contém as habilidades de mecanica de jogo,%n%para utiliza-las aperte com o botão direito %n%do mouse com o livro de habilidade em %n%mãos e ative a habilidade, as habilidades %n%são concedidas dependendo da sua classe, %n%ou podem ser concedidas através de missões.
+  text_border = 0
+  case_mode = normal
+  grabber_color_hover = #003366
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = 0c8bb3a4-5d9a-44e8-a5e6-7f93400ac7b61699938201015
+  x = 285
+  width = 188
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 86ab0b48-8fe9-476e-93a6-87e6b36e5bd21699976481446
+  y = 81
+  alignment = centered
+  base_color = #800E34
+  height = 40
+  element_type = fancymenu_customization_item_text
+}
+
+element {
+  source = [source:local]fancy/LivroGuia/rolamento.gif
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  element_type = image
+  instance_identifier = 2a7214c3-89f3-431d-9507-9fae50d053061699977874522
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = element
+  anchor_point_element = eb247623-a760-4a3b-b639-31216c9bd09c1699977478808
+  x = 0
+  y = 0
+  width = 47
+  height = 45
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 56019834-b7d3-4f17-86f3-9103148ecdcf-1721009753133
+  [loading_requirement_container_meta:56019834-b7d3-4f17-86f3-9103148ecdcf-1721009753133] = [groups:][instances:]
+}
+
+element {
+  source = [source:local]fancy/LivroGuia/ataquepesado.gif
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  element_type = image
+  instance_identifier = f35aab6f-6154-432b-bc32-47bfe03be4dd1699978510495
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = element
+  anchor_point_element = abf2fd3e-8925-4442-a7aa-bfea2b42dac31699977496245
+  x = 0
+  y = 0
+  width = 47
+  height = 45
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = a4ccadd6-55db-491d-a987-1cecaa8030cb-1721009753133
+  [loading_requirement_container_meta:a4ccadd6-55db-491d-a987-1cecaa8030cb-1721009753133] = [groups:][instances:]
+}
+
+element {
+  source = [source:local]fancy/LivroGuia/prata.png
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  element_type = image
+  instance_identifier = abf2fd3e-8925-4442-a7aa-bfea2b42dac31699977496245
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = element
+  anchor_point_element = 0c8bb3a4-5d9a-44e8-a5e6-7f93400ac7b61699938201015
+  x = 289
+  y = 224
+  width = 47
+  height = 45
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = ba5debfc-5c5b-436e-93ed-2417615dd243-1721009753133
+  [loading_requirement_container_meta:ba5debfc-5c5b-436e-93ed-2417615dd243-1721009753133] = [groups:][instances:]
+}
+
+element {
+  source = [source:local]fancy/LivroGuia/ataquecorrendo.gif
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  element_type = image
+  instance_identifier = 11ebc040-b3ec-4f6d-8053-8922bb0e23a11699978623029
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = element
+  anchor_point_element = 9f40f49c-b575-4b35-889b-68429694e4ce1699977599315
+  x = 0
+  y = 0
+  width = 47
+  height = 45
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = f22e5c0b-463a-43c6-a6dd-38b23c6e4255-1721009753133
+  [loading_requirement_container_meta:f22e5c0b-463a-43c6-a6dd-38b23c6e4255-1721009753133] = [groups:][instances:]
+}
+
+element {
+  source = [source:local]fancy/LivroGuia/prata.png
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  element_type = image
+  instance_identifier = 9f40f49c-b575-4b35-889b-68429694e4ce1699977599315
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = element
+  anchor_point_element = 0c8bb3a4-5d9a-44e8-a5e6-7f93400ac7b61699938201015
+  x = 484
+  y = 177
+  width = 47
+  height = 45
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 99273573-3dff-4f1c-873f-d97193ab7ce8-1721009753133
+  [loading_requirement_container_meta:99273573-3dff-4f1c-873f-d97193ab7ce8-1721009753133] = [groups:][instances:]
+}
+
+element {
+  source = [source:local]fancy/LivroGuia/prata.png
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  element_type = image
+  instance_identifier = eb247623-a760-4a3b-b639-31216c9bd09c1699977478808
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = element
+  anchor_point_element = 0c8bb3a4-5d9a-44e8-a5e6-7f93400ac7b61699938201015
+  x = 289
+  y = 128
+  width = 47
+  height = 45
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 5f6b3502-db52-47e9-88d4-a647fdd22998-1721009753134
+  [loading_requirement_container_meta:5f6b3502-db52-47e9-88d4-a647fdd22998-1721009753134] = [groups:][instances:]
+}
+
+element {
+  orientation = element
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  grabber_color_normal = #0a75ad
+  source = &0&nRolamento%n%%n%O rolamento é usado para esquivar%n%de ataques e se distanciar de monstros %n%ou players, ativando o modo batalha %n%você pode apertar a tecla &nX&r do seu %n%teclado para esquiva, você também pode%n%alterar as configurações de teclas em %n%"controles"%n%
+  text_border = 0
+  case_mode = normal
+  grabber_color_hover = #003366
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = 0c8bb3a4-5d9a-44e8-a5e6-7f93400ac7b61699938201015
+  x = 336
+  width = 164
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 27bb4b40-3dc6-4644-91aa-f3127c6383621699977833363
+  y = 133
+  alignment = centered
+  base_color = #800E34
+  height = 40
+  element_type = fancymenu_customization_item_text
+}
+
+element {
+  orientation = element
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  grabber_color_normal = #0a75ad
+  source = &0&nAtaque Pesado%n%%n%O ataque pesado é um ataque de %n%habilidade contido em cada arma, %n%para cada tipo de arma diferente %n%uma habilidade própria, você pode %n%usar essa habilidade segurando o botão %n%esquerdo do seu mouse quando a %n%barra da habilidades no canto inferior %n%direito estiver carregada 100% e azul.%n%
+  text_border = 0
+  case_mode = normal
+  grabber_color_hover = #003366
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = 0c8bb3a4-5d9a-44e8-a5e6-7f93400ac7b61699938201015
+  x = 337
+  width = 163
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = f5a03cf9-04f3-44c1-a32b-e24fa7ad9ca21699978697424
+  y = 229
+  alignment = centered
+  base_color = #800E34
+  height = 40
+  element_type = fancymenu_customization_item_text
+}
+
+element {
+  orientation = element
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  grabber_color_normal = #0a75ad
+  source = &0&nAtaque correndo%n%%n%O ataque correndo é um ataque%n%rapido que pode ferir e estabelecer %n%um dano critico ao inimigo, apenas%n%corra e ataque. CTRL + Botão%n%esquerdo do mouse.%n%%n%
+  text_border = 0
+  case_mode = normal
+  grabber_color_hover = #003366
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = 0c8bb3a4-5d9a-44e8-a5e6-7f93400ac7b61699938201015
+  x = 288
+  width = 185
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 933556b3-e32b-4efc-b520-d080da8abda91699979084246
+  y = 182
+  alignment = centered
+  base_color = #800E34
+  height = 40
+  element_type = fancymenu_customization_item_text
+}
+

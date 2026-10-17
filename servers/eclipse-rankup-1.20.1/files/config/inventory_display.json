@@ -1,0 +1,119 @@
+{
+  "enabled": true,
+  "renderInFirstPerson": false,
+  "renderOtherPlayers": true,
+  "epicFightCompatibility": true,
+  "slots": {
+    "18": {
+      "enabled": true,
+      "posX": -4.0,
+      "posY": 7.0,
+      "posZ": -2.5,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 180.0,
+      "scale": 0.65000004,
+      "alignment": "HIP_RIGHT",
+      "epicFightJoint": "Chest"
+    },
+    "19": {
+      "enabled": true,
+      "posX": 3.0,
+      "posY": 15.5,
+      "posZ": -2.0,
+      "rotX": 79.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scale": 0.1,
+      "alignment": "HIP_RIGHT",
+      "epicFightJoint": "Chest"
+    },
+    "20": {
+      "enabled": true,
+      "posX": -19.5,
+      "posY": 2.0,
+      "posZ": 0.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scale": 0.8,
+      "alignment": "HIP_RIGHT",
+      "epicFightJoint": "Chest"
+    },
+    "9": {
+      "enabled": true,
+      "posX": 1.5,
+      "posY": 14.0,
+      "posZ": -2.0,
+      "rotX": -5.0,
+      "rotY": 0.0,
+      "rotZ": 180.0,
+      "scale": 0.15,
+      "alignment": "HIP_LEFT",
+      "epicFightJoint": "Chest"
+    },
+    "10": {
+      "enabled": true,
+      "posX": -15.0,
+      "posY": 6.0,
+      "posZ": 0.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scale": 0.8,
+      "alignment": "HIP_LEFT",
+      "epicFightJoint": "Chest"
+    },
+    "11": {
+      "enabled": true,
+      "posX": 6.0,
+      "posY": 2.0,
+      "posZ": 0.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scale": 0.8,
+      "alignment": "HIP_LEFT",
+      "epicFightJoint": "Chest"
+    },
+    "27": {
+      "enabled": true,
+      "posX": 0.0,
+      "posY": 4.5,
+      "posZ": -2.5,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": -45.0,
+      "scale": 0.35,
+      "alignment": "TORSO",
+      "epicFightJoint": "Chest"
+    },
+    "28": {
+      "enabled": true,
+      "posX": 0.0,
+      "posY": 8.0,
+      "posZ": -4.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scale": 0.7,
+      "alignment": "TORSO",
+      "epicFightJoint": "Chest"
+    },
+    "29": {
+      "enabled": true,
+      "posX": 0.0,
+      "posY": 4.0,
+      "posZ": -4.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scale": 0.7,
+      "alignment": "TORSO",
+      "epicFightJoint": "Chest"
+    }
+  },
+  "blacklist": [
+    "minecraft:diamond_hoe"
+  ]
+}

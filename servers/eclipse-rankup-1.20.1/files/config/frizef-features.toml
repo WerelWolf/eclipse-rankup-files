@@ -1,0 +1,40 @@
+
+#Which features of Frizef are active.
+#Only the enemy editor is on by default. Everything else comes from the
+#adventure map this mod grew out of, and is opt-in.
+#Use the same values on the server and on every client.
+[features]
+	#The enemy editor and the combat runtime it needs:
+	#Epic Fight archetypes, the mob editor, Combat Evolution
+	#archetypes, attack sequences, projectiles, custom glyphs,
+	#poise, grabs and threat.
+	#Turning this off leaves almost nothing, so it defaults on.
+	enemyEditor = true
+	#The player weapon moveset editor (/frizef weaponeditor)
+	#and the runtime that fires its sequence and projectile hooks.
+	weaponEditor = false
+	#The parchment player menu on the Character Sheet key,
+	#its inventory, overview and arcane tabs.
+	playerMenu = false
+	#The quest engine, quest board, quest tracker HUD and its keybinds.
+	quests = false
+	#The dialogue engine, speakers and the dialogue editor.
+	#Needs CustomNPCs: dialogue hangs off an NPC.
+	dialogue = false
+	#Shops, currency and the shop editor.
+	shops = false
+	#Player classes, skills, lore sheets and cosmetic unlocks.
+	classes = false
+	#Bard NPCs, the song catalog and battle music.
+	#Needs CustomNPCs: the song and its range live on an NPC.
+	bard = false
+	#Authored death screens through eyedeath.
+	#Needs CustomNPCs and eyedeath.
+	deathScreens = false
+	#The area block: bounded spawners, entry sounds and titles.
+	areaBlocks = false
+	#Fixes aimed at one modpack rather than at this mod:
+	#the DimDoors Limbo redirect, Twilight Forest castle doors,
+	#and the Iron's RPG Tweaks durability override.
+	modpackPatches = false
+

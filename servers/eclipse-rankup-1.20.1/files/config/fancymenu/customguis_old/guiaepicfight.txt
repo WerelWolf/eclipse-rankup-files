@@ -1,0 +1,3 @@
+identifier = guiaepicfight
+title = guiaepicfight
+allowesc = false

@@ -1,0 +1,559 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = Raças
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1721009753390
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:dc8ca3bd-7a57-43ad-a93f-6317fc955d69-1721009753390] = [groups:][instances:]
+}
+
+menu_background {
+  image_path = [source:local]fancy/portal.png
+  slide = false
+  repeat_texture = false
+  background_type = image
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+}
+
+element {
+  source = [source:local]fancy/raças/iron_tablet.png
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  element_type = image
+  instance_identifier = 4cc8b4e0-9617-46b5-bdd6-dedfd88a9e801682141315488
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-left
+  x = 0
+  y = 1
+  width = 538
+  height = 508
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = e27c8e51-7d30-40f3-8f0d-bef03fcc8972-1721009753390
+  [loading_requirement_container_meta:e27c8e51-7d30-40f3-8f0d-bef03fcc8972-1721009753390] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = 5e0b39dd-e10f-4f2a-a68e-0653a725210c-1721009753390
+  [executable_action_instance:2f742618-c78a-4b49-8fcd-df8f28bbd4a0-1721009753390][action_type:sendmessage] = /creraces setrace @p 0
+  [executable_action_instance:54e09155-5bf9-4649-8a14-1f0394a77ef6-1721009753390][action_type:sendmessage] = /racegui
+  [executable_action_instance:5175ddd1-c5f6-48b2-a5ff-a42052d163cf-1721009753390][action_type:closegui] = 
+  [executable_block:5e0b39dd-e10f-4f2a-a68e-0653a725210c-1721009753390][type:generic] = [executables:2f742618-c78a-4b49-8fcd-df8f28bbd4a0-1721009753390;54e09155-5bf9-4649-8a14-1f0394a77ef6-1721009753390;5175ddd1-c5f6-48b2-a5ff-a42052d163cf-1721009753390;]
+  backgroundnormal = [source:local]fancy/botao-preto.png
+  backgroundhovered = [source:local]fancy/botao-vermelho.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = Humano
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 59d52f70-e45b-46b0-b6aa-1bcddc1952081682052584632
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-left
+  x = 27
+  y = 100
+  width = 100
+  height = 38
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 053b82c9-213f-4edd-b539-4bbde2fe0e95-1721009753390
+  [loading_requirement_container_meta:053b82c9-213f-4edd-b539-4bbde2fe0e95-1721009753390] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = 73b2cc86-ecd5-4571-8c8c-8979f5087821-1721009753390
+  [executable_action_instance:7db3de14-1efd-4140-8147-897861ddb27d-1721009753390][action_type:sendmessage] = /creraces setrace @p 2
+  [executable_action_instance:291d7ae6-2a4d-493f-bfef-2bdcddc696b3-1721009753390][action_type:sendmessage] = /racegui
+  [executable_action_instance:4770082c-c2cd-42e7-b4d1-7ccd43f42179-1721009753390][action_type:closegui] = 
+  [executable_block:73b2cc86-ecd5-4571-8c8c-8979f5087821-1721009753390][type:generic] = [executables:7db3de14-1efd-4140-8147-897861ddb27d-1721009753390;291d7ae6-2a4d-493f-bfef-2bdcddc696b3-1721009753390;4770082c-c2cd-42e7-b4d1-7ccd43f42179-1721009753390;]
+  backgroundnormal = [source:local]fancy/botao-preto.png
+  backgroundhovered = [source:local]fancy/botao-vermelho.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = Anão
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = f6cc7781-cd94-4684-97f5-9ffb4672e22f1682054792667
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-left
+  x = 150
+  y = 100
+  width = 100
+  height = 38
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 42b14d04-ef86-40e0-aa91-687deaf3d69c-1721009753390
+  [loading_requirement_container_meta:42b14d04-ef86-40e0-aa91-687deaf3d69c-1721009753390] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = 67b64a41-1cda-4a41-be3d-80e0590fcf1a-1721009753390
+  [executable_action_instance:b26ab6db-46d9-4801-bb28-f895414faa77-1721009753390][action_type:sendmessage] = /creraces setrace @p 12
+  [executable_action_instance:be8f01a0-a285-47ff-8882-d6ea4bf53cbd-1721009753390][action_type:sendmessage] = /racegui
+  [executable_action_instance:2e5ec5e3-aa82-43e4-ba05-a6efdfdf43d1-1721009753390][action_type:closegui] = 
+  [executable_block:67b64a41-1cda-4a41-be3d-80e0590fcf1a-1721009753390][type:generic] = [executables:b26ab6db-46d9-4801-bb28-f895414faa77-1721009753390;be8f01a0-a285-47ff-8882-d6ea4bf53cbd-1721009753390;2e5ec5e3-aa82-43e4-ba05-a6efdfdf43d1-1721009753390;]
+  backgroundnormal = [source:local]fancy/botao-preto.png
+  backgroundhovered = [source:local]fancy/botao-vermelho.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = Elfo
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 16a0e3d0-df8e-4faf-9835-97a2155c6a321682054855264
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-left
+  x = 280
+  y = 100
+  width = 100
+  height = 38
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = b9b2b485-3a3c-41a6-8dd3-be8fbd06eee9-1721009753390
+  [loading_requirement_container_meta:b9b2b485-3a3c-41a6-8dd3-be8fbd06eee9-1721009753390] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = dbdd4707-4518-467c-8e0c-fc167bba43b9-1721009753390
+  [executable_action_instance:9e1904f3-1cc1-4273-a869-ee8c1b4cb4a0-1721009753390][action_type:sendmessage] = /creraces setrace @p 13
+  [executable_action_instance:764fbc39-588f-4486-897c-e40287e1173d-1721009753390][action_type:sendmessage] = /racegui
+  [executable_action_instance:16229c35-fa14-441e-8fd7-24cc937e71f9-1721009753390][action_type:closegui] = 
+  [executable_block:dbdd4707-4518-467c-8e0c-fc167bba43b9-1721009753390][type:generic] = [executables:9e1904f3-1cc1-4273-a869-ee8c1b4cb4a0-1721009753390;764fbc39-588f-4486-897c-e40287e1173d-1721009753390;16229c35-fa14-441e-8fd7-24cc937e71f9-1721009753390;]
+  backgroundnormal = [source:local]fancy/botao-preto.png
+  backgroundhovered = [source:local]fancy/botao-vermelho.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = Velox
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = cb77135a-10d3-4242-b8b1-c871543749371682054937474
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-left
+  x = 410
+  y = 100
+  width = 100
+  height = 38
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 896953b6-13dd-47ca-8292-b3d2492ec578-1721009753390
+  [loading_requirement_container_meta:896953b6-13dd-47ca-8292-b3d2492ec578-1721009753390] = [groups:][instances:]
+}
+
+element {
+  source = [source:local]fancy/raças/velox_splash.png
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  element_type = image
+  instance_identifier = 3eb45e1d-ff52-4802-8a8f-806765a20dc61682140425188
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-left
+  x = 419
+  y = 17
+  width = 70
+  height = 86
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 0b2db361-c805-4680-8f8e-5c204f0cb449-1721009753390
+  [loading_requirement_container_meta:0b2db361-c805-4680-8f8e-5c204f0cb449-1721009753390] = [groups:][instances:]
+}
+
+element {
+  source = [source:local]fancy/raças/dwarf_splash.png
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  element_type = image
+  instance_identifier = d000a598-f01c-4bcb-88c5-33877760a6c21682140482493
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-left
+  x = 150
+  y = 16
+  width = 100
+  height = 100
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 1a1a3de7-6059-41a3-8830-b06a84f5605e-1721009753390
+  [loading_requirement_container_meta:1a1a3de7-6059-41a3-8830-b06a84f5605e-1721009753390] = [groups:][instances:]
+}
+
+element {
+  source = [source:local]fancy/raças/human_splash.png
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  element_type = image
+  instance_identifier = b598d49c-58da-4c6f-bdc9-ad0fbe33a10b1682140502098
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-left
+  x = 29
+  y = 20
+  width = 100
+  height = 87
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = e399f06f-9a98-4a95-939a-bb3463d0d1e2-1721009753390
+  [loading_requirement_container_meta:e399f06f-9a98-4a95-939a-bb3463d0d1e2-1721009753390] = [groups:][instances:]
+}
+
+element {
+  source = [source:local]fancy/raças/elf_splash.png
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  element_type = image
+  instance_identifier = ee0356d5-881b-49cc-bd23-15cfa56fadf11682140549854
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-left
+  x = 288
+  y = 14
+  width = 78
+  height = 94
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 00a342be-eb7e-4f68-896f-60eb2b78d88f-1721009753390
+  [loading_requirement_container_meta:00a342be-eb7e-4f68-896f-60eb2b78d88f-1721009753390] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = d2f123b1-95e3-46a8-afe2-52065ca6897a-1721009753390
+  [executable_action_instance:d0fd7f1b-0ac2-42ea-b4dc-c366551574c9-1721009753390][action_type:sendmessage] = /creraces setrace @p 16
+  [executable_action_instance:e8b0a4b7-53c0-4567-ad0a-79d43a678c44-1721009753390][action_type:sendmessage] = /racegui
+  [executable_action_instance:3a134679-24fc-4086-945d-441f8bab1725-1721009753390][action_type:closegui] = 
+  [executable_block:d2f123b1-95e3-46a8-afe2-52065ca6897a-1721009753390][type:generic] = [executables:d0fd7f1b-0ac2-42ea-b4dc-c366551574c9-1721009753390;e8b0a4b7-53c0-4567-ad0a-79d43a678c44-1721009753390;3a134679-24fc-4086-945d-441f8bab1725-1721009753390;]
+  backgroundnormal = [source:local]fancy/botao-preto.png
+  backgroundhovered = [source:local]fancy/botao-vermelho.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = Orc
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = d24dec45-667c-48ae-adc1-90f00829b1cf1682140620086
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-left
+  x = 26
+  y = 320
+  width = 100
+  height = 38
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = a865a511-d939-439a-b5ae-f460fa776fc2-1721009753390
+  [loading_requirement_container_meta:a865a511-d939-439a-b5ae-f460fa776fc2-1721009753390] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = 150d8ec4-f5a6-48a1-bbef-9f1d8c78ea53-1721009753391
+  [executable_action_instance:a0758cb0-6342-4219-8e69-5340a4f063a6-1721009753391][action_type:sendmessage] = /creraces setrace @p 20
+  [executable_action_instance:9b566e8f-ce58-45c0-81b3-5dc673fee649-1721009753391][action_type:sendmessage] = /racegui
+  [executable_action_instance:1835dcd9-0b57-4f40-84ef-d1ecb20f3ee3-1721009753391][action_type:closegui] = 
+  [executable_block:150d8ec4-f5a6-48a1-bbef-9f1d8c78ea53-1721009753391][type:generic] = [executables:a0758cb0-6342-4219-8e69-5340a4f063a6-1721009753391;9b566e8f-ce58-45c0-81b3-5dc673fee649-1721009753391;1835dcd9-0b57-4f40-84ef-d1ecb20f3ee3-1721009753391;]
+  backgroundnormal = [source:local]fancy/botao-preto.png
+  backgroundhovered = [source:local]fancy/botao-vermelho.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = Goblin
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = ab9832ca-fe73-440b-9f28-1dce1dc680731682140652498
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-left
+  x = 150
+  y = 320
+  width = 100
+  height = 38
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 5f80ef29-f412-46b7-87c2-1552bc96d8bf-1721009753391
+  [loading_requirement_container_meta:5f80ef29-f412-46b7-87c2-1552bc96d8bf-1721009753391] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = 503f63a4-19ca-4e62-b67f-35b397953c55-1721009753391
+  [executable_action_instance:b7b9e8e3-131a-4988-b9c6-ce722444c9f2-1721009753391][action_type:sendmessage] = /creraces setrace @p 7
+  [executable_action_instance:2a96a46e-83a3-4e3f-9019-acb236cece47-1721009753391][action_type:sendmessage] = /racegui
+  [executable_action_instance:b4e19fef-30f8-4f11-aa13-47681017ff72-1721009753391][action_type:closegui] = 
+  [executable_block:503f63a4-19ca-4e62-b67f-35b397953c55-1721009753391][type:generic] = [executables:b7b9e8e3-131a-4988-b9c6-ce722444c9f2-1721009753391;2a96a46e-83a3-4e3f-9019-acb236cece47-1721009753391;b4e19fef-30f8-4f11-aa13-47681017ff72-1721009753391;]
+  backgroundnormal = [source:local]fancy/botao-preto.png
+  backgroundhovered = [source:local]fancy/botao-vermelho.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = Elementalista
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 15ecb693-ee27-46ef-8844-e917b31b43a01682140672540
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-left
+  x = 280
+  y = 320
+  width = 100
+  height = 38
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 6d78fd8b-71aa-4888-be88-4183d3411d52-1721009753391
+  [loading_requirement_container_meta:6d78fd8b-71aa-4888-be88-4183d3411d52-1721009753391] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = 67e0ca77-b758-4f72-abf6-d6f6e81eee9d-1721009753391
+  [executable_action_instance:7ccf4722-e85f-4d14-9364-fcebadb922b3-1721009753391][action_type:sendmessage] = /creraces setrace @p 15
+  [executable_action_instance:ea0713e8-9806-4db9-af1e-3e00786f5439-1721009753391][action_type:sendmessage] = /racegui
+  [executable_action_instance:fc011514-8d05-4573-95d3-1f92f5834062-1721009753391][action_type:closegui] = 
+  [executable_block:67e0ca77-b758-4f72-abf6-d6f6e81eee9d-1721009753391][type:generic] = [executables:7ccf4722-e85f-4d14-9364-fcebadb922b3-1721009753391;ea0713e8-9806-4db9-af1e-3e00786f5439-1721009753391;fc011514-8d05-4573-95d3-1f92f5834062-1721009753391;]
+  backgroundnormal = [source:local]fancy/botao-preto.png
+  backgroundhovered = [source:local]fancy/botao-vermelho.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = Troll
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 41b62d98-1235-40e3-b4e1-c0bff9751f0c1682140687819
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-left
+  x = 410
+  y = 320
+  width = 100
+  height = 38
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = afacfebc-3294-4c54-827d-28a5bb122519-1721009753391
+  [loading_requirement_container_meta:afacfebc-3294-4c54-827d-28a5bb122519-1721009753391] = [groups:][instances:]
+}
+
+element {
+  source = [source:local]fancy/raças/orc_splash.png
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  element_type = image
+  instance_identifier = 25dbd29a-0b52-4953-8366-f7d4ab63c45b1682140933217
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-left
+  x = 37
+  y = 223
+  width = 76
+  height = 100
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = b3ddde81-d068-42c6-b7af-4568c91f3a9e-1721009753391
+  [loading_requirement_container_meta:b3ddde81-d068-42c6-b7af-4568c91f3a9e-1721009753391] = [groups:][instances:]
+}
+
+element {
+  source = [source:local]fancy/raças/troll_splash.png
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  element_type = image
+  instance_identifier = 185858ed-08b6-431a-a2ec-24629a7d51b91682140949650
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-left
+  x = 409
+  y = 230
+  width = 100
+  height = 100
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = d572c2e3-5024-4bf7-bfc2-e067d34cc942-1721009753391
+  [loading_requirement_container_meta:d572c2e3-5024-4bf7-bfc2-e067d34cc942-1721009753391] = [groups:][instances:]
+}
+
+element {
+  source = [source:local]fancy/raças/goblin_splash.png
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  element_type = image
+  instance_identifier = 713d93af-9234-472b-b56a-56a34300e9d31682140960498
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-left
+  x = 149
+  y = 234
+  width = 100
+  height = 100
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 7d237982-7266-48b7-98b1-9e9113948ee6-1721009753391
+  [loading_requirement_container_meta:7d237982-7266-48b7-98b1-9e9113948ee6-1721009753391] = [groups:][instances:]
+}
+
+element {
+  source = [source:local]fancy/raças/elementalist_splash.png
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  element_type = image
+  instance_identifier = dd514f52-bdd2-46ad-8727-89a98dde6d951682140974985
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-left
+  x = 291
+  y = 228
+  width = 77
+  height = 100
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 7a15a962-1540-4890-9abf-ef29e5933f4d-1721009753391
+  [loading_requirement_container_meta:7a15a962-1540-4890-9abf-ef29e5933f4d-1721009753391] = [groups:][instances:]
+}
+
+element {
+  source = [source:local]fancy/raças/iron_tablet.png
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  element_type = image
+  instance_identifier = 6a0b86bd-694e-4ba0-b438-d7a727ac8ea31682142352219
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-left
+  x = 536
+  y = 1
+  width = 423
+  height = 508
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 3331b5df-1a8a-464d-80d0-0919be76f361-1721009753391
+  [loading_requirement_container_meta:3331b5df-1a8a-464d-80d0-0919be76f361-1721009753391] = [groups:][instances:]
+}
+
+element {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  text_border = 0
+  case_mode = normal
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if][req_id:f98793b5-e0a4-47b0-9438-e0569adbf3a31682142651761] = ["mode":"...","text":"...","compare_with":"..."]$
+  source_mode = direct
+  line_spacing = 1
+  x = 561
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 9f74e226-3af4-4f57-bb8f-b8b9f5db5f251682142512299
+  y = 54
+  alignment = left
+  height = 40
+  element_type = fancymenu_customization_item_text
+}
+

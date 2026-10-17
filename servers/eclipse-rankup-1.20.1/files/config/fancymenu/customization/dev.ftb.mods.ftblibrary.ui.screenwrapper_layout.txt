@@ -1,0 +1,90 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = dev.ftb.mods.ftblibrary.ui.ScreenWrapper
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1736536540477
+  is_enabled = false
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:10b966e7-e61c-4f0a-b493-ef5a417c0f99-1736536540494] = [groups:][instances:]
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+}
+
+element {
+  source = [source:local]/config/fancymenu/assets/fancy/tlanovo.png
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  element_type = image
+  instance_identifier = 52479445-c894-4341-8453-2f1126d82c00-1736377063656
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1018
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = 251
+  y = -206
+  width = 69
+  height = 62
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 01812b78-7f20-4089-80d8-bc708ebce749-1733587862471
+  [loading_requirement_container_meta:01812b78-7f20-4089-80d8-bc708ebce749-1733587862471] = [groups:][instances:]
+}
+
+element {
+  source = [source:local]/config/fancymenu/assets/fancy/shopbackground.png
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  element_type = image
+  instance_identifier = cbaaab5c-1c68-45ff-b9f1-8cf322c4b6ee-1736377368980
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1018
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -393
+  y = -207
+  width = 778
+  height = 415
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 093b9eb4-427b-4c1a-9b5e-92811e6d0c90-1736377368980
+  [loading_requirement_container_meta:093b9eb4-427b-4c1a-9b5e-92811e6d0c90-1736377368980] = [groups:][instances:]
+}
+

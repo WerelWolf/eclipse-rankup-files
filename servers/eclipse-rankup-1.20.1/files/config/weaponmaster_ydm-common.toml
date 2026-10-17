@@ -1,0 +1,344 @@
+
+[model_options]
+	#put main and off hand items after x tick to display on the body! 100 tick ~ 5 sec
+	#Range: > 0
+	hidetick = 200
+	#Put in the name, x,y,z, x-y-z rotation values and the slot where to apply the changes 1-9, shield, banner, offhand! Separate items with a space character
+	uniqueitems = "empty,0,0,0,0,0,0,0,1 potion,0,49,0,0,0,0,0,8 potion,0,10,0,0,0,0,0,7 potion,11,37,0,0,0,-25,0,1 potion,-5,15,-4,0,0,-55,0,2 ender_blaster,-50,45,0,0,90,-48,-10,8 ender_blaster,-35,-10,26,0,-90,0,-10,6 ender_blaster,39,11,0,0,90,-7,-10,7 ender_blaster,0,0,0,0,0,0,0,5 electro_gun,-30,35,5,0,0,-75,0,7 electro_gun,45,66,34,-5,180,-120,0,8 electro_gun,-40,0,15,-5,-170,0,0,5 electro_gun,-28,0,0,0,-180,0,0,6 stone_boomerang,-25,0,10,-10,100,-5,60,8 enchanted_book,-37,59,-11,0,0,0,0,9 bow,22,0,0,0,0,0,0,7 shield,0,0,0,0,0,0,0,1 minecraft_shield,0,0,0,0,0,0,0,shield minecraft:shield,0,0,0,0,0,0,0,1"
+	#Whitelists item that are normally not visible
+	whitelist = "empty,enchanted_golden_apple,potion,stone_boomerang,wooden_boomerang,bow,enchanted_book,shield"
+	#Blacklists item that are normally visible
+	blacklist = "empty"
+	#Slot 1
+	s1 = true
+	#Slot 2
+	s2 = true
+	#Slot 3
+	s3 = true
+	#Slot 4
+	s4 = true
+	#Slot 5
+	s5 = true
+	#Slot 6
+	s6 = true
+	#Slot 7
+	s7 = true
+	#Slot 8
+	s8 = true
+	#Slot 9
+	s9 = true
+	#Shield
+	shield = true
+	#Banner
+	banner = true
+	#main hand
+	main_hand = true
+	#off hand
+	off_hand = true
+	#quiver
+	quiver = true
+	#Body part attachment to a slot
+	attachment = "1-body,2-body,3-body,4-body,5-body,6-body,7-body,8-body,9-body,shield-body,banner-head,offhand-lleg,quiver-body"
+	#Which active slot and equipment should move the item model away
+	slot_mover = "none,chest,banner;z;+_none,chest,1;z;+_none,chest;x;-_none,chest;x;-_none,chest,1,banner,shield;x;-_none,legs,4;x;+_none,chest,legs,1;z;+_none,shield;z;+_none,legs;x;-_none,quiver,offhand;z;-_none,helm;z;-_none,legs,6,4;x;+_none;z;+"
+	#Players can hide items with the toggle settings
+	canhideitems = false
+	#Players can change the position and rotation of the displayed items
+	can_change_pos_and_rot = false
+	#Players can change the attachment of the slots
+	can_change_attachment = false
+	#Players can change the movers of the slots
+	can_change_movers = false
+	#Players can change their unique item settings
+	can_change_uit = false
+	#Players can change their whitelist
+	can_change_scale = false
+
+	[model_options.positions_rotations]
+		#Position and rotation settings
+		#x position0
+		#Range: > -2147483648
+		x_position0 = 0
+		#y position1
+		#Range: > -2147483648
+		y_position1 = 0
+		#z position2
+		#Range: > -2147483648
+		z_position2 = 0
+		#x rotation0
+		#Range: > -2147483648
+		x_rotation0 = 0
+		#y rotation1
+		#Range: > -2147483648
+		y_rotation1 = 0
+		#z rotation2
+		#Range: > -2147483648
+		z_rotationn2 = 0
+		#scale0
+		#Range: > -100
+		scale0 = -100
+		#Position and rotation settings
+		#x position3
+		#Range: > -2147483648
+		x_position3 = 0
+		#y position4
+		#Range: > -2147483648
+		y_position4 = 0
+		#z position5
+		#Range: > -2147483648
+		z_position5 = 0
+		#x rotation3
+		#Range: > -2147483648
+		x_rotation3 = 0
+		#y rotation4
+		#Range: > -2147483648
+		y_rotation4 = 0
+		#z rotation5
+		#Range: > -2147483648
+		z_rotationn5 = 0
+		#scale1
+		#Range: > -100
+		scale1 = -100
+		#Position and rotation settings
+		#x position6
+		#Range: > -2147483648
+		x_position6 = 20
+		#y position7
+		#Range: > -2147483648
+		y_position7 = 40
+		#z position8
+		#Range: > -2147483648
+		z_position8 = 0
+		#x rotation6
+		#Range: > -2147483648
+		x_rotation6 = 0
+		#y rotation7
+		#Range: > -2147483648
+		y_rotation7 = 2
+		#z rotation8
+		#Range: > -2147483648
+		z_rotationn8 = 10
+		#scale2
+		#Range: > -100
+		scale2 = 0
+		#Position and rotation settings
+		#x position9
+		#Range: > -2147483648
+		x_position9 = 7
+		#y position10
+		#Range: > -2147483648
+		y_position10 = 59
+		#z position11
+		#Range: > -2147483648
+		z_position11 = 5
+		#x rotation9
+		#Range: > -2147483648
+		x_rotation9 = 0
+		#y rotation10
+		#Range: > -2147483648
+		y_rotation10 = 0
+		#z rotation11
+		#Range: > -2147483648
+		z_rotationn11 = 90
+		#scale3
+		#Range: > -100
+		scale3 = 0
+		#Position and rotation settings
+		#x position12
+		#Range: > -2147483648
+		x_position12 = -7
+		#y position13
+		#Range: > -2147483648
+		y_position13 = 50
+		#z position14
+		#Range: > -2147483648
+		z_position14 = 0
+		#x rotation12
+		#Range: > -2147483648
+		x_rotation12 = 0
+		#y rotation13
+		#Range: > -2147483648
+		y_rotation13 = -90
+		#z rotation14
+		#Range: > -2147483648
+		z_rotationn14 = -41
+		#scale4
+		#Range: > -100
+		scale4 = 0
+		#Position and rotation settings
+		#x position15
+		#Range: > -2147483648
+		x_position15 = 45
+		#y position16
+		#Range: > -2147483648
+		y_position16 = 51
+		#z position17
+		#Range: > -2147483648
+		z_position17 = 0
+		#x rotation15
+		#Range: > -2147483648
+		x_rotation15 = 0
+		#y rotation16
+		#Range: > -2147483648
+		y_rotation16 = -90
+		#z rotation17
+		#Range: > -2147483648
+		z_rotationn17 = -30
+		#scale5
+		#Range: > -100
+		scale5 = 0
+		#Position and rotation settings
+		#x position18
+		#Range: > -2147483648
+		x_position18 = -21
+		#y position19
+		#Range: > -2147483648
+		y_position19 = 29
+		#z position20
+		#Range: > -2147483648
+		z_position20 = -1
+		#x rotation18
+		#Range: > -2147483648
+		x_rotation18 = 0
+		#y rotation19
+		#Range: > -2147483648
+		y_rotation19 = 0
+		#z rotation20
+		#Range: > -2147483648
+		z_rotationn20 = -35
+		#scale6
+		#Range: > -100
+		scale6 = 0
+		#Position and rotation settings
+		#x position21
+		#Range: > -2147483648
+		x_position21 = 35
+		#y position22
+		#Range: > -2147483648
+		y_position22 = 64
+		#z position23
+		#Range: > -2147483648
+		z_position23 = -2
+		#x rotation21
+		#Range: > -2147483648
+		x_rotation21 = 0
+		#y rotation22
+		#Range: > -2147483648
+		y_rotation22 = 0
+		#z rotation23
+		#Range: > -2147483648
+		z_rotationn23 = 5
+		#scale7
+		#Range: > -100
+		scale7 = 0
+		#Position and rotation settings
+		#x position24
+		#Range: > -2147483648
+		x_position24 = -12
+		#y position25
+		#Range: > -2147483648
+		y_position25 = 58
+		#z position26
+		#Range: > -2147483648
+		z_position26 = 5
+		#x rotation24
+		#Range: > -2147483648
+		x_rotation24 = 0
+		#y rotation25
+		#Range: > -2147483648
+		y_rotation25 = -88
+		#z rotation26
+		#Range: > -2147483648
+		z_rotationn26 = -4
+		#scale8
+		#Range: > -100
+		scale8 = 0
+		#Position and rotation settings
+		#x position27
+		#Range: > -2147483648
+		x_position27 = 4
+		#y position28
+		#Range: > -2147483648
+		y_position28 = 0
+		#z position29
+		#Range: > -2147483648
+		z_position29 = 7
+		#x rotation27
+		#Range: > -2147483648
+		x_rotation27 = 0
+		#y rotation28
+		#Range: > -2147483648
+		y_rotation28 = 0
+		#z rotation29
+		#Range: > -2147483648
+		z_rotationn29 = 0
+		#scale9
+		#Range: > -100
+		scale9 = 27
+		#Position and rotation settings
+		#x position30
+		#Range: > -2147483648
+		x_position30 = 0
+		#y position31
+		#Range: > -2147483648
+		y_position31 = 0
+		#z position32
+		#Range: > -2147483648
+		z_position32 = 0
+		#x rotation30
+		#Range: > -2147483648
+		x_rotation30 = -180
+		#y rotation31
+		#Range: > -2147483648
+		y_rotation31 = -180
+		#z rotation32
+		#Range: > -2147483648
+		z_rotationn32 = 0
+		#scale10
+		#Range: > -100
+		scale10 = 0
+		#Position and rotation settings
+		#x position33
+		#Range: > -2147483648
+		x_position33 = -2
+		#y position34
+		#Range: > -2147483648
+		y_position34 = 22
+		#z position35
+		#Range: > -2147483648
+		z_position35 = -14
+		#x rotation33
+		#Range: > -2147483648
+		x_rotation33 = 110
+		#y rotation34
+		#Range: > -2147483648
+		y_rotation34 = 90
+		#z rotation35
+		#Range: > -2147483648
+		z_rotationn35 = 0
+		#scale11
+		#Range: > -100
+		scale11 = 0
+		#Position and rotation settings
+		#x position36
+		#Range: > -2147483648
+		x_position36 = 0
+		#y position37
+		#Range: > -2147483648
+		y_position37 = 0
+		#z position38
+		#Range: > -2147483648
+		z_position38 = 15
+		#x rotation36
+		#Range: > -2147483648
+		x_rotation36 = 0
+		#y rotation37
+		#Range: > -2147483648
+		y_rotation37 = 0
+		#z rotation38
+		#Range: > -2147483648
+		z_rotationn38 = 0
+		#scale12
+		#Range: > -100
+		scale12 = 0
+

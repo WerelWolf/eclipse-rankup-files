@@ -1,0 +1,3 @@
+identifier = npcguia
+title = npcguia
+allowesc = true

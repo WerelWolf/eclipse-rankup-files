@@ -1,0 +1,3 @@
+identifier = livroguia
+title = livroguia
+allowesc = false

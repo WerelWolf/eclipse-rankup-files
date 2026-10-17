@@ -1,0 +1,17 @@
+
+#CNPCExtended Client Configuration
+[client]
+	#Skip the main menu and go directly to a world or server.
+	#"disabled" = normal behavior (default).
+	#"singleplayer" = auto-load a singleplayer world (set skipMenuTarget to the world folder name).
+	#"server" = auto-connect to a server (set skipMenuTarget to the server address).
+	skipMenuMode = "disabled"
+	#The target for skipMenuMode.
+	#For singleplayer: the world folder name (e.g. "My World").
+	#For server: the server address (e.g. "play.myserver.com" or "play.myserver.com:25565").
+	skipMenuTarget = ""
+	#Replace 'Save and Quit to Title' / 'Disconnect' with closing Minecraft entirely.
+	#Prevents players from reaching the main menu. Good for adventure maps and dedicated servers.
+	#Only takes effect when skipMenuMode is not "disabled".
+	quitOnDisconnect = false
+

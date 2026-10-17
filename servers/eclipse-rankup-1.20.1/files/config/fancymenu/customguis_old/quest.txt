@@ -1,0 +1,3 @@
+identifier = quest
+title = quest
+allowesc = false

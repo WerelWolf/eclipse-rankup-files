@@ -1,0 +1,3 @@
+identifier = curiosguia
+title = curiosguia
+allowesc = false

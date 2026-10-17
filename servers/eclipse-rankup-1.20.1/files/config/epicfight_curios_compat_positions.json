@@ -1,0 +1,50 @@
+{
+  "overrides": {
+    "mountbauble|0|baublemounts:mount_bauble": {
+      "x": 0.4000001,
+      "y": -1.0,
+      "z": -0.100000024,
+      "rotX": 0.0,
+      "rotY": 180.0,
+      "rotZ": 0.0,
+      "scale": 0.31750003
+    },
+    "back|0|spartanweaponry:large_arrow_quiver": {
+      "x": 0.0,
+      "y": -0.20000005,
+      "z": 0.07500005,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scale": 1.8400002
+    },
+    "back|0|spartanweaponry:small_arrow_quiver": {
+      "x": 0.099999905,
+      "y": -0.17499995,
+      "z": 0.07500005,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scale": 1.9306252
+    },
+    "minecraft|9|minecraft:diamond_hoe": {
+      "x": 0.099999905,
+      "y": -0.17499995,
+      "z": 0.07500005,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scale": 1.9306252
+    },
+    "mountbauble|0|baublemounts:vehicle_bauble": {
+      "x": -0.375,
+      "y": -1.025,
+      "z": 0.0,
+      "rotX": 0.0,
+      "rotY": 90.0,
+      "rotZ": -45.0,
+      "scale": 0.226875
+    }
+  },
+  "sittingOverrides": {}
+}

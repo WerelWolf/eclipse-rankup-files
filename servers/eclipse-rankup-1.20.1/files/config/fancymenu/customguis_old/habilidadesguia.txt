@@ -1,0 +1,3 @@
+identifier = habilidadesguia
+title = habilidadesguia
+allowesc = false

@@ -1,0 +1,9 @@
+
+[debug]
+	#Show each OBB name at its center while F3+B hitboxes are enabled.
+	showObbNames = true
+
+[effects]
+	#Place damage, critical-hit, and damage-indicator particles at the hit OBB when available.
+	damageParticlesFollowHitbox = true
+
