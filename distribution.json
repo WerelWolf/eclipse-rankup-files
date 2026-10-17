@@ -430,6 +430,576 @@
               }
             }
           ]
+        },
+        {
+          "id": "com.bigenergy:achiopt:1.0.5@jar",
+          "name": "AchievementOptimizer",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 11897,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/AchievementOptimizer-1.20.1-1.0.5.jar",
+            "MD5": "2ef4dba5187668112ae20f16c1e9e7c7"
+          }
+        },
+        {
+          "id": "dev.architectury:architectury:9.2.14@jar",
+          "name": "Architectury",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 580602,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/architectury-9.2.14-forge.jar",
+            "MD5": "76b40d407b6bf0257dd1dab6d3d395d5"
+          }
+        },
+        {
+          "id": "net.shadowking21:baublemounts:4.0.1a@jar",
+          "name": "Bauble Mounts",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 244397,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/BaubleMounts-forge-4.0.1a.jar",
+            "MD5": "980255455cbb58e95d95f66d871f6fe9"
+          }
+        },
+        {
+          "id": "me.srrapero720:chloride:1.8.1@jar",
+          "name": "Chloride",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 532833,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/chloride-FORGE-mc1.20.1-v1.8.1.jar",
+            "MD5": "23238aa4136a03fff53695e8e8dae1f4"
+          }
+        },
+        {
+          "id": "sweda.cnpc_immersiveboss:cnpc_immersiveboss:0.3.11@jar",
+          "name": "CNPC-ImmersiveBoss",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 323134,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/cnpc_immersiveboss-0.3.11.jar",
+            "MD5": "a599eda4080b8d2a6ab0c6fa856c4442"
+          }
+        },
+        {
+          "id": "com.goodbird:cnpcefaddon:1.20.1.20260626@jar",
+          "name": "CNPC-EpicFight-Addon",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 68760,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/CNPC-EpicFight-Addon-1.20.1.20260626.jar",
+            "MD5": "618075be4293cbab2e20625aafa26e77"
+          }
+        },
+        {
+          "id": "com.goodbird:cnpcefaddon:2.7.0@jar",
+          "name": "CNPC-EpicFight-Addon-CE-1.20.1-Forge",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 304846,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/CNPC-EpicFight-Addon-CE-1.20.1-Forge-V2.7.0.jar",
+            "MD5": "5dac7056e2ee64f4c5b45bb35d40938d"
+          }
+        },
+        {
+          "id": "com.goodbird:cnpcgeckoaddon:1.20.1-1.0.0@jar",
+          "name": "CNPC-Gecko-Addon",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 304561,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/CNPC-Gecko-Addon-1.20.1-1.0.14.jar",
+            "MD5": "3651a477525df8dec85d58a41ba64be5"
+          }
+        },
+        {
+          "id": "com.cnpcextended:cnpcextended:1.5.10@jar",
+          "name": "CNPC Extended",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 200753,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/CNPCExtendedPerBoost-2026-05-17-forge-1.20.1-v3.jar",
+            "MD5": "cf77ee4b41a67e69e91ba1cda2d3d2d9"
+          }
+        },
+        {
+          "id": "top.cnpcplus:cnpcplus:4.0.0@jar",
+          "name": "CNPC增强",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 550326,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/cnpcplus-4.0.0-1.20.1Forge.jar",
+            "MD5": "d6feaf04a7c86190a1212dcb74583892"
+          }
+        },
+        {
+          "id": "top.theillusivec4:curios:5.14.1+1.20.1@jar",
+          "name": "Curios API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 398066,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/curios-forge-5.14.1+1.20.1.jar",
+            "MD5": "2fdcc97cbc66c4b2492b407c792e7159"
+          }
+        },
+        {
+          "id": "noppes.npcs:customnpcs:1.16.5.20220515@jar",
+          "name": "Custom NPCs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 12457390,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/CustomNPCs-1.16.5.20220515.jar",
+            "MD5": "9d204b1c5dd8cdbe9737fbdc761f33d9"
+          }
+        },
+        {
+          "id": "noppes.npcs:customnpcs:1.20.1.20260711@jar",
+          "name": "Custom NPCs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10873769,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/CustomNPCs-1.20.1-GBPort-Unofficial-1.20.1.20260711.jar",
+            "MD5": "3875c7b5f671470fb966482fb1d1500a"
+          }
+        },
+        {
+          "id": "org.orecruncher.neoforge:dsurround:1.20.1-1.3.1@jar",
+          "name": "Dynamic Surroundings",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 15006756,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/dynamicsurroundingsforge-1.20.1-1.3.1.jar",
+            "MD5": "2458912e9f8b8990f34449e5251ccae2"
+          }
+        },
+        {
+          "id": "net.werelwolfs:eclipsemod:1.0.0@jar",
+          "name": "EclipseMod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 200437,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/eclipsemod-1.0.0-forge-1.20.1.jar",
+            "MD5": "2267b3a6ea3ebc59fc9f1fbee9611ee7"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods.sodium.client:embeddium:0.3.31+mc1.20.1@jar",
+          "name": "Embeddium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1320675,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/embeddium-0.3.31+mc1.20.1.jar",
+            "MD5": "1dfb2ee49ce9ad5d484ff3eea0d628b7"
+          }
+        },
+        {
+          "id": "com.alfr3xd:enhancedequipmentdisplay:1.1@jar",
+          "name": "Enhanced Equipment Display",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 338252,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/enhancedequipmentdisplay-forge-1.20.1-1.1.jar",
+            "MD5": "c93189ea40d0640a7e343855168b1c6f"
+          }
+        },
+        {
+          "id": "yesman.epicfight.main:epicfight:20.14.17@jar",
+          "name": "Epic Fight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8071119,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/epic-fight-20.14.17-mc1.20.1-forge.jar",
+            "MD5": "51d01cfa8222c92ae85efd1045c2abb9"
+          }
+        },
+        {
+          "id": "com.oneworldstudio.epicfightcurioscompat:epicfight_curios_compat:1.4@jar",
+          "name": "EpicFight x Curios Compat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 237113,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/EpicFight%20x%20Curios%20Compat%202.2.jar",
+            "MD5": "26f8513eeea27c772428f78fe6f63914"
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:equipmentcompare:1.3.7@jar",
+          "name": "Equipment Compare",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 31704,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/EquipmentCompare-1.20.1-forge-1.3.7.jar",
+            "MD5": "78b73cacd5244346d6faa9665544b215"
+          }
+        },
+        {
+          "id": "de.keksuccino:fancymenu:3.9.14@jar",
+          "name": "FancyMenu",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 26191988,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/fancymenu_forge_3.9.14_MC_1.20.1.jar",
+            "MD5": "4a27ef9d0e6b8cc9c32183cf843b99ef"
+          }
+        },
+        {
+          "id": "malte0811.ferritecore:ferritecore:6.0.1@jar",
+          "name": "Ferrite Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 123034,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/ferritecore-6.0.1-forge.jar",
+            "MD5": "f52f538207a4829d7060550092ce2383"
+          }
+        },
+        {
+          "id": "voidjam.fancytemplate:fplaceh:1.1.1@jar",
+          "name": "Reverie's FancyMenu Placeholders",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 16384,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/fplaceh-1.1.1.jar",
+            "MD5": "6a9a4c2d90c41c2c44388e494d358e9e"
+          }
+        },
+        {
+          "id": "dev.obscuria.fragmentum.platform:fragmentum:5.2.0@jar",
+          "name": "Fragmentum",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8580894,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/fragmentum-5.2.0+1.20.1-forge.jar",
+            "MD5": "5c66a9be1bebd3a7f570a546eb7c1469"
+          }
+        },
+        {
+          "id": "com.mrcrayfish:framework:0.8.0@jar",
+          "name": "Framework",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 383868,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/framework-forge-1.20.1-0.8.0.jar",
+            "MD5": "6d9a54cd004b15028673b309243e07a2"
+          }
+        },
+        {
+          "id": "me.fzzyhmstrs:fzzy_config:0.7.7+1.20.1+forge@jar",
+          "name": "Fzzy Config",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2397175,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/fzzy_config-0.7.7+1.20.1+forge.jar",
+            "MD5": "6e550632cf60cfac2ad0ce4b7de8d4e5"
+          }
+        },
+        {
+          "id": "software.bernie.example:geckolib:4.8.4@jar",
+          "name": "GeckoLib 4",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1038209,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/geckolib-forge-1.20.1-4.8.4.jar",
+            "MD5": "83c73bcbf5778235569025ed968dc3ec"
+          }
+        },
+        {
+          "id": "tizio.dev:cgm:1.0.0@jar",
+          "name": "Custom Glint Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 38781,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/glintcustomizer-1.0FIX-1.20.1.jar",
+            "MD5": "8f61bca14f01a6a2e33e3974a2082130"
+          }
+        },
+        {
+          "id": "com.gpumemleakfix:gpumemleakfix:1.20.1-1.8@jar",
+          "name": "Gpu memory leak fix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7997,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/gpumemleakfix-1.20.1-1.8.jar",
+            "MD5": "e5028e9da74761f26c00c546c8ebdc4d"
+          }
+        },
+        {
+          "id": "com.baranhan123:herocapes:1.3.1@jar",
+          "name": "HeroCapes",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 66813,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/herocapes-1.3.1.jar",
+            "MD5": "985ac1d63847213ef117b30595a4ad9e"
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:iceberg:1.1.25@jar",
+          "name": "Iceberg",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 134551,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/Iceberg-1.20.1-forge-1.1.25.jar",
+            "MD5": "cda8af806d0de012f5c7012ea51c155f"
+          }
+        },
+        {
+          "id": "net.raphimc:immediatelyfast:1.5.5+1.20.4@jar",
+          "name": "ImmediatelyFast",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 532063,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/ImmediatelyFast-Forge-1.5.5+1.20.4.jar",
+            "MD5": "4d776686d7da62146099484b8c9e14af"
+          }
+        },
+        {
+          "id": "net.conczin:immersive_furniture:0.3.3+1.20.1@jar",
+          "name": "Immersive Furniture",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 988737,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/immersive_furniture-forge-0.3.3+1.20.1.jar",
+            "MD5": "2cb8e30feca2b3bcf0ecc0b4257b0e74"
+          }
+        },
+        {
+          "id": "com.nameless.indestructible.main:indestructible:20.12.0@jar",
+          "name": "Indestructible",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 264947,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/indestructible-20.12.0.jar",
+            "MD5": "88638e4501af9b6cdd1e7d99c2c2205e"
+          }
+        },
+        {
+          "id": "com.example:inventorydisplay:1.0.0@jar",
+          "name": "Inventory Visual Display",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 38722,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/inventorydisplay-1.0.0.jar",
+            "MD5": "2115182635ed13af0c8fecba84bf496c"
+          }
+        },
+        {
+          "id": "de.keksuccino:konkrete:1.8.0@jar",
+          "name": "Konkrete",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 625185,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+            "MD5": "d69107c593e361e1b7b96733250bd098"
+          }
+        },
+        {
+          "id": "generated.forgemod:kotlinforforge:4.12.0-all@jar",
+          "name": "Kotlinforforge",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7442998,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/kotlinforforge-4.12.0-all.jar",
+            "MD5": "d6a40dede74edbe646b34a1bafd53b4d"
+          }
+        },
+        {
+          "id": "com.cinemamod:mcef:2.1.6-1.20.1@jar",
+          "name": "MCEF (Minecraft Chromium Embedded Framework)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 218417,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/mcef-forge-2.1.6-1.20.1.jar",
+            "MD5": "341d01e98e3835162cf8eb439e20dbfe"
+          }
+        },
+        {
+          "id": "de.keksuccino:melody:1.0.2@jar",
+          "name": "Melody",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 37178,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+            "MD5": "6b528d368f7fcbf737df28f2457cdec6"
+          }
+        },
+        {
+          "id": "dev.obscuria.tooltips:obscure_tooltips:3.10.1@jar",
+          "name": "Obscure Tooltips",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1138929,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/obscure_tooltips-forge-1.20.1-3.10.1.jar",
+            "MD5": "04e6131cf0564a87ddf3c458abfe9dd5"
+          }
+        },
+        {
+          "id": "net.irisshaders.iris:oculus:1.8.0@jar",
+          "name": "Oculus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2851119,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/oculus-mc1.20.1-1.8.0.jar",
+            "MD5": "1dd891634ac21591b5a692471f112572"
+          }
+        },
+        {
+          "id": "com.bibireden:opc:1.0.0+1.20.1@jar",
+          "name": "Offline Player Cache: Directors Cut",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 79974,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/offline-player-cache-1.0.0+1.20.1-forge.jar",
+            "MD5": "7992731562ecc1e45dd6bbacd19cc466"
+          }
+        },
+        {
+          "id": "com.p1nero.epicfightbow:p1nero_bow:20.14.1.6@jar",
+          "name": "P1nero's Epic Fight Bow",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 932621,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/p1nero_bow-forge1.20.1-20.14.1.6.jar",
+            "MD5": "970b731f0f96923bf62abd7fa03504b2"
+          }
+        },
+        {
+          "id": "dev.tonimatas:packetfixer:3.3.2@jar",
+          "name": "PacketFixer",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 188661,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/packetfixer-3.3.2-1.18-1.20.4-merged.jar",
+            "MD5": "494234194e4ce530719281d558510cf5"
+          }
+        },
+        {
+          "id": "virtuoel.pehkui:pehkui:3.8.2+1.20.1-forge@jar",
+          "name": "Pehkui",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 671605,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/Pehkui-3.8.2+1.20.1-forge.jar",
+            "MD5": "95bdd5558d34044f54aab0ce292e679b"
+          }
+        },
+        {
+          "id": "dev.shadowsoffire:placebo:8.6.3@jar",
+          "name": "Placebo",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 282474,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/Placebo-1.20.1-8.6.3.jar",
+            "MD5": "13133ab9989e8474931cd7a86bd19cc5"
+          }
+        },
+        {
+          "id": "net.shadowking21:shadowconfig:1.2@jar",
+          "name": "Shadow Config",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3021632,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/ShadowConfig-Forge%201.2-1.20.1.jar",
+            "MD5": "b5e620bbb4c0d32190514245d946fa53"
+          }
+        },
+        {
+          "id": "com.github.exopandora:shouldersurfing:1.20.1-5.2.0@jar",
+          "name": "Shoulder Surfing Reloaded",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 426606,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/ShoulderSurfing-Forge-1.20.1-5.2.0.jar",
+            "MD5": "df9bfd1fc94fa26954bb0dc51ee6acbf"
+          }
+        },
+        {
+          "id": "toni.sodiumdynamiclights:sodiumdynamiclights:1.0.9@jar",
+          "name": "Sodium Dynamic Lights",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 511601,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/sodiumdynamiclights-forge-1.0.10-1.20.1.jar",
+            "MD5": "687c18cefa558ca8101ef97914d9ba6b"
+          }
+        },
+        {
+          "id": "toni.sodiumoptionsapi:sodiumoptionsapi:1.0.10@jar",
+          "name": "Sodium Options API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 443978,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/sodiumoptionsapi-forge-1.0.10-1.20.1.jar",
+            "MD5": "75807590ae2648ecdeb855705868ce59"
+          }
+        },
+        {
+          "id": "com.oblivioussp:spartanweaponry:3.2.1@jar",
+          "name": "Spartan Weaponry",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2834011,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/SpartanWeaponry-1.20.1-forge-3.2.1-all.jar",
+            "MD5": "d52d9b73cae7d0e91c2b48faccb90e10"
+          }
+        },
+        {
+          "id": "de.keksuccino:spiffyhud:3.1.2@jar",
+          "name": "SpiffyHUD",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 836930,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/spiffyhud_forge_3.1.2_MC_1.20.1.jar",
+            "MD5": "0945923a31cf51f71547c9a72b505f24"
+          }
+        },
+        {
+          "id": "net.mcreator.tlamod:tla_mod:1.0.0@jar",
+          "name": "TLA_MOD",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 15614,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/tla_mod-1.0.0-forge-1.20.1.jar",
+            "MD5": "06a78c29748e3394348707a5eb96eb64"
+          }
+        },
+        {
+          "id": "net.mcreator:tla:1.0.0@jar",
+          "name": "TLA",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 406180,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/tla-1.0.0-forge-1.20.1.jar",
+            "MD5": "8519e3f3e8dd6958035881f2aa4a0f6c"
+          }
+        },
+        {
+          "id": "reascer.wom.main:wom:2.0.171@jar",
+          "name": "Weapons of miracle",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 20945819,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/WeaponsOfMiracles-2.0.171-mc1.20.1-forge.jar",
+            "MD5": "8de3e38fc2e7ca3699d000b55ed6b1b4"
+          }
+        },
+        {
+          "id": "xaero.minimap:xaerominimap:26.6.0@jar",
+          "name": "Xaero's Minimap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2196194,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/xaerominimap-forge-1.20.1-26.6.0.jar",
+            "MD5": "90ad4deb039c88524e63d9a6f361c37d"
+          }
+        },
+        {
+          "id": "xaero.map:xaeroworldmap:1.47.0@jar",
+          "name": "Xaero's World Map",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1429424,
+            "url": "https://werelwolf.github.io/eclipse-rankup-files/servers/eclipse-rankup-1.20.1/forgemods/required/xaeroworldmap-forge-1.20.1-1.47.0.jar",
+            "MD5": "68adfbd2bb723adddf2b71ba8e15e51f"
+          }
         }
       ]
     }
